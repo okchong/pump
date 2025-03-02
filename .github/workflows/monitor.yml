@@ -28,4 +28,6 @@ jobs:
         run: |
           echo "BOT_TOKEN=${{ secrets.BOT_TOKEN }}" > .env
           echo "CHAT_ID=${{ secrets.CHAT_ID }}" > .env
-          python scripts/monitor.py
+          python python monitor.py
+
+
